@@ -1,0 +1,10 @@
+1. Correct hero (gender1,true)
+2. Correct hero (gender2,true)
+3. Correct hero (gender1,false)
+4. Correct hero (gender2,false)
+5. Incorrect argument type for gender
+6. Incorrect argument type for employed
+7. Response is empty
+Different response-codes from 200
+    8. 404
+    9. 500
