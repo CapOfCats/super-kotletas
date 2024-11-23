@@ -51,6 +51,7 @@ class TestGetHighest:
         (None, True),
         (1,10),
     ])
+    # TODO: Добавить проверку наличия данных в ответе от API
     def test_invalid_types(self, gender: str, employed: bool):
         """
             Тестирует случаи подачи данных неверного типа в метод. Репрезентирует пункты 5,6 из cases.txt
@@ -86,7 +87,7 @@ class TestGetHighest:
             method_class.get_highest_superkotleta()
         assert type(ex.value) is requests.exceptions.RequestException
 
-
+    # TODO: Добавить проверку наличия данных в ответе от API
     def test_not_found_response(self, get_api_response):
         """
             Тестирует случай, когда API возвращает ошибку 404. Репрезентирует пункт 8 из cases.txt
