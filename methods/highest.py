@@ -18,6 +18,8 @@ class HighestSuperhero:
         self.gender = _gender
         self.employed = _employed
         self.url = _url
+
+    # TODO: Добавить проверку наличия данных в ответе от API
     def get_highest_superkotleta(self) -> dict:
         """
                 Находит всех супергероев по заданным критериям, а затем - самого высокого из них.
